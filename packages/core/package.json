@@ -1,0 +1,26 @@
+{
+  "name": "@jasonmacgowan/math-core",
+  "version": "0.0.0",
+  "description": "Reinventing the wheel, one operation at a time.",
+  "author": "Jason Macgowan <1389531+jasonmacgowan@users.noreply.github.com>",
+  "homepage": "https://github.com/jasonmacgowan/math",
+  "license": "MIT",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmacgowan/math.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonmacgowan/math/issues"
+  }
+}

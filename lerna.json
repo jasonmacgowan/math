@@ -1,0 +1,10 @@
+{
+  "command": {
+    "publish": {
+      "message": "chore(release): lerna publish %s",
+      "registry": "https://npm.pkg.github.com"
+    }
+  },
+  "packages": ["packages/*"],
+  "version": "0.0.0"
+}
