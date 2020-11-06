@@ -1,6 +1,6 @@
 {
   "name": "@jasonmacgowan/math-multiply",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Multiply all the things.",
   "author": "Jason Macgowan <1389531+jasonmacgowan@users.noreply.github.com>",
   "homepage": "https://github.com/jasonmacgowan/math#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/jasonmacgowan/math/issues"
   },
   "dependencies": {
-    "@jasonmacgowan/math-core": "^0.0.1"
+    "@jasonmacgowan/math-core": "^0.1.0"
   }
 }
