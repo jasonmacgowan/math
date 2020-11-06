@@ -19,4 +19,10 @@ describe("core", () => {
       expect(core.subtract(1, 2, 3)).toBe(-4);
     });
   });
+
+  describe("multiply", () => {
+    it("products arguments", () => {
+      expect(core.multiply(1, 2, 3)).toBe(6);
+    });
+  });
 });

@@ -1,12 +1,11 @@
 {
   "command": {
     "publish": {
+      "conventionalCommits": true,
       "message": "chore(release): lerna publish %s",
       "registry": "https://npm.pkg.github.com"
     }
   },
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.0.1"
 }

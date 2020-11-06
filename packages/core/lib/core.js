@@ -22,7 +22,19 @@ function subtract() {
   });
 }
 
+/**
+ * Multiply all the arguments
+ */
+function multiply() {
+  const args = Object.values(arguments);
+
+  return args.reduce((prev, next) => {
+    return prev * next;
+  });
+}
+
 module.exports = {
   add,
   subtract,
+  multiply,
 };
